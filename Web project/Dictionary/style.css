@@ -134,7 +134,6 @@ section .searchForm input[type=button]:hover {
     border-width: 3px;
     flex-direction: column;
     height: auto;
-    width: 75%;
 } 
 
 .accordion-title,
