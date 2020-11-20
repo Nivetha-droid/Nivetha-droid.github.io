@@ -56,7 +56,6 @@ section .searchForm input[type=button] {
   font-weight: bold;
   color: #F5F5F5 !important;
   font-size: 20px;
-  margin: auto;
   text-shadow: 1px 1px 0px #7CACDE;
   box-shadow: 1px 1px 1px #BEE2F9;
   padding: 10px 15px;
