@@ -31,7 +31,7 @@ section .menu{
   }
 
 section .searchForm input[type=search] {
-    margin: 10px 10px;
+    margin: 0;
     padding: 15px 15px;
     justify-content: center;
     background-color: #ece7e7;
