@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <script type="text/javascript">
+        function Confirm(form) {
+            alert("Data submitted successfully!");
+            form.submit();
+        }
+    </script>
+
+    <div class="header">
+        <h1><a href="index.html"><img id="home"
+                    src="https://www.jg-cdn.com/chrome/3e7a4dc9d866fda15331414a9072da97.svg"></a>
+        </h1>
+    </div>
+    <div class="form">
+        <form action="index.html" method="post">
+
+            <h1>Feedback</h1>
+
+            <fieldset>
+                <label for="name">First name:</label>
+                <input type="text" id="Firstname" name="first_name">
+
+                <label for="name">Last name:</label>
+                <input type="text" id="Lastname" name="last_name">
+
+                <label for="Type of feedback">Type of feedback:</label>
+                <select>
+                    <option value="3">Compliment</option>
+                    <option value="2">Complaint</option>
+                    <option value="4">Suggestion</option>
+                </select>
+                <label for="Feedback">Feedback:</label>
+                <textarea rows="5"></textarea>
+                <div class="main">
+                    <span class="rating-star">
+                        <input type="radio" name="rating" value="5"><span class="star"></span>
+
+                        <input type="radio" name="rating" value="4"><span class="star"></span>
+
+                        <input type="radio" name="rating" value="3"><span class="star"></span>
+
+                        <input type="radio" name="rating" value="2"><span class="star"></span>
+
+                        <input type="radio" name="rating" value="1"><span class="star"></span>
+                    </span>
+                </div>
+                <button type="submit">Post</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <div class="footer">
+        <div class="row">
+            <div class="column"><a href="index.html"><img id="home"
+                        src="https://www.jg-cdn.com/chrome/3e7a4dc9d866fda15331414a9072da97.svg">
+                </a>
+            </div>
+            <div class="column">
+                <p>Find us on<br>
+                    <a href="#" class="fa fa-facebook"><a href="#" class="fa fa-twitter"><a href="#"
+                                class="fa fa-linkedin"></a><a href="#" class="fa fa-instagram"></a>
+                </p>
+            </div>
+            <div class="row">
+                <p>
+                    While using this site, you agree to have read and accepted our terms of use, cookie and
+                    privacypolicy. All Rights Reserved Powered by JustGiving.
+                </p>
+            </div>
+        </div>
+</body>
+
+</html>
