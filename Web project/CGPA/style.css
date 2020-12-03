@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+  background-color: #FFBE53;
+  margin:auto;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color:#B3404A;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: 1px 2px black;
+}
+
+.row{
+  margin: auto;
+  width:100%;
+}
+
+.full{
+  margin-top: 200px;
+}
+
+
+h1{
+  margin-bottom:30px;
+  padding:10px;
+  font-size: 80px;
+}
+
+
+
+p{
+  margin:20px;
+  font-size: 40px;
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.76);
+  height:30px;
+  width:180px;
+  padding:5px;
+  color: #B3404A;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline-style: none;
+}
+
+
+button{
+  background: #B3404A;
+  width:80px;
+  height:35px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 5px;
+  outline-style: none;
+}
+
+.box1{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;
+  outline: none;
+}
+
+#gpa , #cgpa{
+  font-size: 50px;
+  margin:50px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.sem , .creds , .gpas{
+  margin:10px;
+}
+
+.home{
+  position: fixed;
+  right:250px;
+  bottom:20px;
+  /*transform :translate(-5%,-0.1%);*/
+  outline: none;
+}
+
+ 
+
+@media only screen and (max-width: 1195px)
+{
+  .body{
+    text-align:none;}
+  #col1{display: none;}
+  .col{min-width:50%;}
+  #col4{display:none;}
+}
+
+@media only screen and (max-width: 715px)
+{
+  .body{text-align:none; 
+    font-size:40px; 
+    margin-bottom: 40px;
+  }
+  .col{min-width:100%;}
+  #head{margin-top:50px;}
+  .box2{
+    margin-bottom: 20px;
+  }
+  .full{
+    margin-top:50px;
+    margin-bottom:50px;}
+    
+    .home{
+      position: fixed;
+      bottom:5px;
+      right:5px;
+    }
+  }
+
+@media only screen and (max-width: 425px)
+{
+    h1{
+    font-size:50px;
+  }
+  #gpa_cal, #cgpa_cal{
+    padding: 0px;
+  }
+  .full{
+    margin-top:50px;
+    margin-bottom:50px;}
+
+  .home{
+    position: fixed;
+    bottom:5px;
+    right:5px;
+  }
+
+  .box2{
+    margin-bottom: 20px;
+  }
+  
+  #sub3{margin-bottom: 10px;}
+  .credits{margin-top: 10px;}
+  select{margin-right:5px;}
+}
